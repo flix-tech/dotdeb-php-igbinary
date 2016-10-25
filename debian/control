@@ -21,7 +21,7 @@ Package: php7.0-igbinary-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: php7.0-igbinary (= ${binary:Version}), ${misc: Depends}
+Depends: php7.0-igbinary (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for php7.0-igbinary
   Igbinary is a drop in replacement for the standard php serializer. Instead of
  time and space consuming textual representation, igbinary stores php data
